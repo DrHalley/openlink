@@ -1,16 +1,8 @@
 import { Link } from "@prisma/client";
 import { Button } from "./ui/button";
 import { deleteLink } from "@/lib/DeleteLink";
-import { Session } from "next-auth";
-import LinkAddComponent from "./link-add";
 
-const LinkComponent = async ({
-  link,
-  session,
-}: {
-  link: Link;
-  session: Session;
-}) => {
+const LinkComponent = async ({ link }: { link: Link }) => {
   return (
     <div>
       <div className=" flex gap-3 w-full justify-center">

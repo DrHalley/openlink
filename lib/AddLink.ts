@@ -1,5 +1,5 @@
 import { prisma } from "@/prisma";
-import { Session } from "next-auth";
+
 import { auth } from "@/auth";
 export async function AddLink(formData: FormData) {
   "use server";
@@ -27,7 +27,7 @@ export async function AddLink(formData: FormData) {
     rawFormData.link = "https://google.com";
   }
 
-  const create = await prisma.link.create({
+  await prisma.link.create({
     data: {
       title: rawFormData.title,
       url: rawFormData.link,

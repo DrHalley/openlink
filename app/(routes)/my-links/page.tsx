@@ -25,7 +25,7 @@ export default async function MyLinksPage() {
       <br />
       <br />
 
-      <MyLinksComponent session={session} links={links} />
+      <MyLinksComponent links={links} />
     </div>
   );
 }

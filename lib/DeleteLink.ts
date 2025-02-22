@@ -10,7 +10,7 @@ export async function deleteLink(link: Link) {
   });
   if (!user) return null;
 
-  const update = await prisma.link.delete({
+  await prisma.link.delete({
     where: {
       id: link.id,
     },

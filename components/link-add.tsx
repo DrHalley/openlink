@@ -1,7 +1,7 @@
 import { AddLink } from "@/lib/AddLink";
 import { Button } from "./ui/button";
 
-const LinkAddComponent = async ({ session }: { session: any }) => {
+const LinkAddComponent = async () => {
   return (
     <div className="flex justify-center">
       <form action={AddLink}>

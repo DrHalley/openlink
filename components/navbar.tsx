@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { auth, signIn, signOut } from "@/auth";
+import { auth, signIn } from "@/auth";
 import Profile from "./profile";
 
 export default async function Navbar() {
