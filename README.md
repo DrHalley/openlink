@@ -21,5 +21,5 @@ We welcome all feedback and contributions! Feel free to open a pull request or a
 
 ---
 
-For more information, check out our [GitHub page](https://github.com/yourusername/openlink).
+For more information, check out our [GitHub page](https://github.com/DrHalley/openlink).
 
