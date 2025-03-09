@@ -36,7 +36,7 @@ export default async function Navbar() {
               await signIn("github");
             }}
           >
-            <Button type="submit">Github ile Giriş Yap</Button>
+            <Button type="submit">GSignin with Github</Button>
           </form>
         )}
       </div>
